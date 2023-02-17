@@ -1,0 +1,83 @@
+body {
+  background-color: blueviolet;
+  font-family: "Oswald", sans-serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container-header {
+}
+
+.container-main {
+  margin: 50px;
+}
+.container-footer {
+}
+.title-main {
+  font-size: 48px;
+}
+.title {
+  font-size: 32px;
+}
+.text-hi {
+  display: block;
+}
+.text {
+  background: green;
+  padding: 50px;
+}
+.container-text {
+  width: 200px;
+  height: 200px;
+  padding: 16px;
+  background-color: yellow;
+  display: inline-flex;
+
+  overflow: hidden;
+}
+/* centring object */
+/* margin: 0px auto 0px auto; */
+.image-header {
+  width: 100%;
+
+  padding: 50px;
+  background-color: black;
+}
