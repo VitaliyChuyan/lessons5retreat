@@ -132,3 +132,22 @@ body {
   line-height: 120%;
   overflow: auto;
 }
+.block-test-one {
+  color: red;
+  background-color: coral;
+  border-bottom: 12px dashed rgb(129, 185, 76);
+  border-top: 8px double #fff;
+  border-left: 10px solid black;
+  border-right: 6px dotted royalblue;
+  outline: auto;
+  opacity: 49%;
+}
+.block-test-two {
+  color: blueviolet;
+  background-color: palegreen;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: inset 12px 12px 12px 12px rgb(192, 25, 25);
+  visibility: inherit;
+}
